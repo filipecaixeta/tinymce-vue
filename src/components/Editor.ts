@@ -87,7 +87,7 @@ export const Editor: ThisTypedComponentOptionsWithRecordProps<Vue, {}, {}, {}, I
       const doc = this.element.ownerDocument;
       const channel = this.$props.cloudChannel ? this.$props.cloudChannel : '5';
       const apiKey = this.$props.apiKey ? this.$props.apiKey : '';
-      const url = "http://cdnjs.cloudflare.com/ajax/libs/tinymce/5.0.3/tinymce.min.js"
+      const url = 'http://cdnjs.cloudflare.com/ajax/libs/tinymce/5.0.3/tinymce.min.js'
 
       ScriptLoader.load(scriptState, doc, url, initialise(this));
     }
