@@ -1,5 +1,5 @@
 {
-  "name": "@tinymce/tinymce-vue",
+  "name": "@filipecaixeta/tinymce-vue",
   "version": "3.0.0",
   "description": "Official TinyMCE Vue Component",
   "private": false,
